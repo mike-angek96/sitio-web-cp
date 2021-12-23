@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #3f3e42;
+    height: 3.7em;
+    margin-top: -.5em;
+  }
+  
+  .navInner {
+    display: flex;
+  }
+  
+  .menu{
+      display: flex;
+  }
+
+  .li-menu>a{
+        text-decoration: none;
+        color: white;
+  }
+  .menu > .li-menu {
+      font-size: .6em;
+      list-style: none;
+      margin-left: 2em;
+      margin-top: -.3em;
+  }
+
+  .navInner .menu {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0.8em 1.5em;
+    margin: 0.5em -0.4em;
+  }
+  
+  .li-menu a:hover {
+    background-color: gray;
+  }
+  

@@ -1,0 +1,88 @@
+
+body{
+    background-color:#3f3e42;
+}
+
+.banner{
+    width:100%;
+    height: 400px;
+    background-color: #f1eff6;
+    display: flex;
+}
+
+.banner > .banner-logo{
+    height: 50%;
+    margin:5em 0 0 7em;
+}
+
+.title-name{
+    font-family: 'Licorice', cursive;
+    font-size: 3.3em;
+    margin:2em 0 0 1em;
+}
+
+.subtitle-name{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    margin:0 0 0 4em;
+}
+.banner-titles{
+}
+.banner-profile{
+    height: 50%;
+    margin:5em 0 0 7em;
+}
+
+.banner-library{
+    box-sizing: border-box;
+    border: 0;
+    width:100%;
+    padding: 1em 0 0 15em;
+}
+
+.library-img{
+    width: 75%;
+}
+
+.banner-logo{
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    transform: perspective(500px) rotateY(-42deg);
+    -webkit-transform: perspective(500px) rotateY(-42deg);
+    -moz-transform: perspective(500px) rotateY(-42deg);
+    -ms-transform: perspective(500px) rotateY(-42deg);
+    -o-transform: perspective(500px) rotateY(-42deg);
+    animation-name: rotate-windows;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  @keyframes rotate-windows {
+    0% {
+      transform: perspective(500px) rotateY(-42deg);
+      -webkit-transform: perspective(500px) rotateY(-42deg);
+      -moz-transform: perspective(500px) rotateY(-42deg);
+      -ms-transform: perspective(500px) rotateY(-42deg);
+      -o-transform: perspective(500px) rotateY(-42deg);
+    }
+    50% {
+      transform: perspective(500px) rotateY(0deg);
+      -webkit-transform: perspective(500px) rotateY(0deg);
+      -moz-transform: perspective(500px) rotateY(0deg);
+      -ms-transform: perspective(500px) rotateY(0deg);
+      -o-transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(500px) rotateY(-42deg);
+      -webkit-transform: perspective(500px) rotateY(-42deg);
+      -moz-transform: perspective(500px) rotateY(-42deg);
+      -ms-transform: perspective(500px) rotateY(-42deg);
+      -o-transform: perspective(500px) rotateY(-42deg);
+    }
+  }
+  
