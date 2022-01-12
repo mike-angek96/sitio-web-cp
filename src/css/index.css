@@ -10,23 +10,82 @@ body{
     background-color: black;
 }
 
+.banner-img{
+  margin-left: 5em;
+  width: 80%;
+}
+
+
+/*welcome section*/
+.welcome-section{
+  display: block;
+  position: relative;
+  width: 800px;
+  padding: 1em;
+  margin: auto;
+  border-bottom: 2px solid #333;
+}
+
+.circle-parent{
+  width: 20em;
+  height: 20em;
+  overflow: hidden;
+  background: white;
+  border: 1px solid darkblue;
+  border-radius: 100%;
+  shape-outside: circle(50%);
+  margin-right: 1em;
+  float: left;
+  text-align: center;
+}
+
+.logo{
+  margin:3em 0 0 0;
+}
+
+.title-name{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 3.3em;
+  color:white;
+}
+
+.text-desc{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  color:white;
+}
+
+/*about me*/
+.about-me{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  background-color: #e2dfe8;
+}
+
+.desc-about{
+  width: 60%;
+  box-sizing: border-box;
+  padding: 5em 0 0 4em;
+}
+.desc-about>h1{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 3em;
+  text-align: center;
+}
+.desc-about>p{
+  font-size: .9em;
+  margin-bottom: 1em;
+}
+.about-me >img{
+  width:30%;
+  height: 80%;
+}
+
 .banner-div-logo{
     margin:5em 0 0 7em;
 }
 
-.title-name{
-    font-family: 'Licorice', cursive;
-    font-size: 3.3em;
-    margin:2em 0 0 1em;
-    color:white;
-}
-
-.subtitle-name{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 1.2em;
-    margin:0 0 0 4em;
-    color:white;
-}
 
 .banner-profile{
     height: 50%;
@@ -46,7 +105,7 @@ body{
 
 /*banner efect logo*/
 .banner-logo{
-    height: 50%;
+    margin:3em 0 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
